@@ -601,3 +601,14 @@ ul{
     text-decoration: underline;
     cursor: pointer;
 }
+.downimg {
+    display: flex;
+}
+.downimg .floatingimg {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+
+.downimg:hover .floatingimg {
+    animation-play-state: paused;
+}
