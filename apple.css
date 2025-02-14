@@ -603,7 +603,39 @@ ul{
 }
 .downimg {
     display: flex;
-    background-color:white;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100vw;
+    background-color: black;
+    padding: 20px 0;
+    height:50vh;
+}
+
+.floatingimg {
+    display: inline-block;
+    animation: scroll 20s linear infinite;
+    flex-shrink: 0;
+}
+
+.floatingimg img {
+    width: 300px;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.downimg {
+    display: flex;
 }
 .downimg .floatingimg {
     display: flex;
