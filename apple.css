@@ -607,23 +607,24 @@ ul{
     white-space: nowrap;
     position: relative;
     width: 100vw;
-    background-color: black;
+    background-color: white;
     padding: 20px 0;
-    height:50vh;
+    height:65vh;
 }
 
 .floatingimg {
     display: inline-block;
-    animation: scroll 20s linear infinite;
+    animation: scroll 30s linear infinite;
     flex-shrink: 0;
 }
 
 .floatingimg img {
-    width: 300px;
-    height: auto;
+    width:80vw;
+    height: 65vh;
     margin: 0 10px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
 }
 
 @keyframes scroll {
@@ -631,7 +632,7 @@ ul{
         transform: translateX(0);
     }
     to {
-        transform: translateX(-100%);
+        transform: translateX(-900%);
     }
 }
 .downimg {
@@ -639,9 +640,270 @@ ul{
 }
 .downimg .floatingimg {
     display: flex;
-    animation: scroll 20s linear infinite;
+    animation: scroll 30s linear infinite;
 }
 
 .downimg:hover .floatingimg {
     animation-play-state: paused;
+}
+.watchdes{
+    margin:0;
+    color:white;
+    position:absolute;
+    top: 288vh;
+    left:0vw;
+    z-index: 100;
+    font-size: 40px;
+    font-weight: 600;
+}
+.undertext{
+    font-size:20px;
+    padding-left:0px;
+    margin:0;
+    color:white;
+    position:absolute;
+    top:6vh;
+    left:0vw;
+    padding-left:14vw;
+    z-index: 100;
+    font-weight: 150;
+    width:30vw;
+}
+.watchinimag{
+    padding-left:18vw;
+}
+.undertext1{
+    font-size:20px;
+    margin:0;
+    color:white;
+    position:absolute;
+    top:9vh;
+    left:0vw;
+    padding-left:15vw;
+    z-index: 100;
+    font-weight: 150;
+    width:30vw;
+}
+.underbuy{
+    font-size:15px;
+    padding-left:0px;
+    padding-top:1vh;
+    margin:0;
+    color:black;
+    background-color: #ffffff;
+    position:absolute;
+    top:14vh;
+    left:23vw;
+    text-align: center;
+    z-index: 100;
+    font-weight: 200;
+    border: 1px solid white;
+    width:5vw;
+    height:4vh;
+    border-radius:50px;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+.valat{
+    margin:0;
+    color:black;
+    position:absolute;
+    top:326vh;
+    left:57vw;
+    z-index: 100;
+    font-size: 40px;
+    font-weight: 600;
+}
+.valatname{
+    padding-left:6vw;
+}
+.valatname1{
+    font-size:20px;
+    font-weight: 200;
+    padding-left:4vw;
+}
+.underval{
+        font-size:15px;
+        padding-left:0px;
+        padding-top:1vh;
+        margin:0;
+        color:white;
+        background-color: rgb(57, 140, 228);
+        position:absolute;
+        top:14vh;
+        left:14vw;
+        text-align: center;
+        z-index: 100;
+        font-weight: 200;
+        border: 1px solid white;
+        width:5vw;
+        height:4vh;
+        border-radius:50px;
+}
+.suma{
+    color:#ffffff;
+}
+.macbooknm{
+    margin:0;
+    color:black;
+    position:absolute;
+    top: 360vh;
+    left:16vw;
+    z-index: 100;
+    font-size: 40px;
+    font-weight: 600;
+}
+.macbookname1{
+    font-weight: 100;
+    font-size: 20px;
+    padding-left:2vw;
+}
+.undermac{
+    font-size:15px;
+        padding-left:0px;
+        padding-top:1vh;
+        margin:0;
+        color:white;
+        background-color: rgb(57, 140, 228);
+        position:absolute;
+        top:12.1vh;
+        left:6.5vw;
+        text-align: center;
+        z-index: 100;
+        font-weight: 200;
+        border: 1px solid white;
+        width:5vw;
+        height:4vh;
+        border-radius:50px
+}
+.airpodnm{
+    margin:0;
+    color:white;
+    position:absolute;
+    top: 470vh;
+    left:0vw;
+    z-index: 100;
+    font-size: 40px;
+    font-weight: 600;
+}
+.undertext2{
+    font-size:20px;
+    margin:0;
+    color:white;
+    position:absolute;
+    top:6vh;
+    left:0vw;
+    padding-left:17vw;
+    z-index: 100;
+    font-weight: 150;
+    width:30vw;
+}
+.undertext3{
+    font-size:20px;
+    margin:0;
+    color:white;
+    position:absolute;
+    top:9vh;
+    left:0vw;
+    padding-left:12vw;
+    z-index: 100;
+    font-weight: 150;
+    width:30vw;
+}
+.ipadpronm{
+    margin:0;
+    color:white;
+    position:absolute;
+    top:360vh;
+    left:57vw;
+    z-index: 100;
+    font-size: 40px;
+    font-weight: 600;
+}
+.ipadname1{
+    font-size:20px;
+    margin:0;
+    color:white;
+    position:absolute;
+    top:7vh;
+    left:0vw;
+    padding-left:5vw;
+    z-index: 100;
+    font-weight: 150;
+    width:30vw;
+}
+.ipadpro{
+        padding-left:12vw;
+}
+.underipad{
+    font-size:15px;
+    padding-left:0px;
+    padding-top:1vh;
+    margin:0;
+    color:white;
+    background-color: rgb(57, 140, 228);
+    position:absolute;
+    top:14vh;
+    left:14vw;
+    text-align: center;
+    z-index: 100;
+    font-weight: 200;
+    width:5vw;
+    height:4vh;
+    border-radius:50px;
+}
+.tradeit{
+    margin:0;
+    color:black;
+    position:absolute;
+    top:430vh;
+    left:57vw;
+    z-index: 100;
+    font-size: 40px;
+    font-weight: 600;
+}
+.tradeitnm{
+    padding-left:10vw;
+}
+.tradeitname1{
+    font-size:23px;
+    font-weight: 300;
+    padding-left:6vw;
+}
+.undertrd{
+    font-size:15px;
+    padding-left:0px;
+    padding-top:1vh;
+    margin:0;
+    color:white;
+    background-color: rgb(57, 140, 228);
+    position:absolute;
+    top:12vh;
+    left:11vw;
+    text-align: center;
+    z-index: 100;
+    font-weight: 200;
+    border: 1px solid white;
+    width:11vw;
+    height:4vh;
+    border-radius:50px;
+}
+.buildfor{
+    position: absolute;
+    top:410vh;
+    left:68vw;
+    background: -webkit-linear-gradient(356deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    background: linear-gradient(94deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: block;
+}
+.avalinus{
+    position: absolute;
+    top:415vh;
+    left:68vw;
+    color:#86868b;
 }
