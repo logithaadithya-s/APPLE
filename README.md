@@ -1,33 +1,33 @@
-# Apple Landing Page Clone
+Apple Landing Page Clone
 
-## 📌 Project Overview
+Project Overview
 This project is a clone of the official Apple landing page, built to practice frontend development skills. The goal was to replicate the design and responsiveness of Apple's website using modern web technologies.
 
-## 🚀 Features
+Features
 - Fully responsive design
 - Smooth animations and transitions
 - Interactive navigation bar
 - High-quality images and icons
 - Pixel-perfect layout resembling the original Apple website
 
-## 🛠️ Technologies Used
+Technologies Used
 - HTML5
 - CSS3 (Flexbox & Grid)
-- JavaScript (for interactivity)
-- Bootstrap / Tailwind CSS
-- [Optional] GSAP for animations
+- JavaScript for interactivity
+-  Bootstrap 
 
-## 📂 Project Structure
+
+Project Structure
 ```
-📁 apple-landing-page-clone
-│── 📂 assets        # Images, icons, and other static files
-│── 📂 css           # Stylesheets
-│── 📂 js            # JavaScript files
-│── 📜 index.html    # Main landing page file
-│── 📜 README.md     # Project documentation
+apple-landing-page-clone
+│── assets        # Images, icons, and other static files
+│── css           # Stylesheets
+│── js            # JavaScript files
+│── index.html    # Main landing page file
+│── README.md     # Project documentation
 ```
 
-## 🖥️ Installation & Usage
+Installation & Usage
 1. Clone this repository:
    ```sh
    git clone https://github.com/your-username/apple-landing-page-clone.git
@@ -43,20 +43,20 @@ This project is a clone of the official Apple landing page, built to practice fr
    ```
    Or use Live Server in VS Code for the best experience.
 
-## 📸 Screenshots
+Screenshots
+Include a screenshot of your project here to showcase the design.
 
-
-## ✨ Future Enhancements
+Future Enhancements
 - Improve responsiveness for all screen sizes
 - Add more interactive elements
 - Optimize performance and SEO
 
-## 🤝 Contributing
-Contributions are welcome! Feel free to fork the repo and submit a pull request.
+Contributing
+Contributions are welcome. Feel free to fork the repo and submit a pull request.
 
-## 📜 License
+License
 This project is for educational purposes only and does not claim any rights over Apple’s design or assets.
 
 ---
-Made with ❤️ by Logith aadithya S
+Created by Logith Aadithya S
 
