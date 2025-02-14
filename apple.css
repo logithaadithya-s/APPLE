@@ -277,6 +277,8 @@ body {
     background-color: black;
     height:3em;
     width:100%;
+    position: fixed;
+    top:0px;
 }
 .substore1{
     display:inline-block;
