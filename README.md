@@ -28,22 +28,6 @@ apple-landing-page-clone
 │── README.md     # Project documentation
 ```
 
-Installation & Usage
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/your-username/apple-landing-page-clone.git
-   ```
-2. Navigate to the project folder:
-   ```sh
-   cd apple-landing-page-clone
-   ```
-3. Open `index.html` in a browser:
-   ```sh
-   open index.html  # Mac
-   start index.html # Windows
-   ```
-   Or use Live Server in VS Code for the best experience.
-
 Screenshots
 Include a screenshot of your project here to showcase the design.
 
