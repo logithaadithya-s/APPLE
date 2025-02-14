@@ -603,6 +603,7 @@ ul{
 }
 .downimg {
     display: flex;
+    background-color:white;
 }
 .downimg .floatingimg {
     display: flex;
