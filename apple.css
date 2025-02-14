@@ -417,6 +417,7 @@ a.shop{
     margin-top:10px;
     height: 90vh;
     background-image:url("https://www.apple.com/v/iphone-16-pro/d/images/overview/product-stories/camera-control/ANIM/camera_control_hero_endframe__bra77khuxo6a_xlarge.jpg");
+    width:100vw;
 }
 .botton3{
     height:40px;
@@ -462,6 +463,7 @@ a.shop{
     margin-top:10px;
     height: 90vh;
     background-image:url("https://images.indianexpress.com/2024/04/apple-watch-series-9-ultra-2-featured.jpg");
+    width:100vw;
 }
 .iphonehed2{
     color:white;
