@@ -1,0 +1,600 @@
+.headlogo{
+    width:2%;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color:white;
+    height:500vh;
+}
+.store {
+    display: none;
+    position:fixed;
+    top:3em;
+    left:0px;
+    background-color: black;
+    width:1300px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 1s ease, visibility 1s ease;
+    visibility: hidden;
+    color:white;
+}
+
+.mainstore:hover .store {
+    display:block;
+    opacity: 1;
+    visibility: visible;
+}
+.mac {
+    display: none;
+    position:fixed;
+    top:3em;
+    left:0px;
+    background-color: black;
+    width:1300px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 1s ease, visibility 1s ease;
+    visibility: hidden;
+    color:white;
+}
+
+.mainmac:hover .mac {
+    display:block;
+    opacity: 1;
+    visibility: visible;
+}
+.ipad{
+    display: none;
+    position:fixed;
+    top:3em;
+    left:0px;
+    background-color: black;
+    width:1300px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 1s ease, visibility 1s ease;
+    visibility: hidden;
+    color:white;
+}
+
+.ipadstr:hover .ipad {
+    display:block;
+    opacity: 1;
+    visibility: visible;
+}
+.iphn{
+    display: none;
+    position:fixed;
+    top:3em;
+    left:0px;
+    background-color: black;
+    width:1300px;
+    height:450px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 1s ease, visibility 1s ease;
+    visibility: hidden;
+    color:white;
+}
+
+.mainiphn:hover .iphn {
+    display:block;
+    opacity: 1;
+    visibility: visible;
+}
+.applewth1{
+    display: none;
+    position:fixed;
+    top:3em;
+    left:0px;
+    background-color: black;
+    width:1300px;
+    height:450px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 1s ease, visibility 1s ease;
+    visibility: hidden;
+    color:white;
+}
+
+.applewth:hover .applewth1{
+    display:block;
+    opacity: 1;
+    visibility: visible;
+}
+.airpd1{
+    display: none;
+    position:fixed;
+    top:3em;
+    left:0px;
+    background-color: black;
+    width:1300px;
+    height:450px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 1s ease, visibility 1s ease;
+    visibility: hidden;
+    color:white;
+}
+
+.airpd:hover .airpd1{
+    display:block;
+    opacity: 1;
+    visibility: visible;
+}
+.tvhome1{
+    display: none;
+    position:fixed;
+    top:3em;
+    left:0px;
+    background-color: black;
+    width:1300px;
+    height:450px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 1s ease, visibility 1s ease;
+    visibility: hidden;
+    color:white;
+}
+
+.tvhome:hover .tvhome1{
+    display:block;
+    opacity: 1;
+    visibility: visible;
+}
+.entert1{
+    display: none;
+    position:fixed;
+    top:3em;
+    left:0px;
+    background-color: black;
+    width:1300px;
+    height:450px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 1s ease, visibility 1s ease;
+    visibility: hidden;
+    color:white;
+}
+
+.entert:hover .entert1{
+    display:block;
+    opacity: 1;
+    visibility: visible;
+}
+.Accessories1{
+    display: none;
+    position:fixed;
+    top:3em;
+    left:0px;
+    background-color: black;
+    width:1300px;
+    height:450px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 1s ease, visibility 1s ease;
+    visibility: hidden;
+    color:white;
+}
+
+.Accessories:hover .Accessories1{
+    display:block;
+    opacity: 1;
+    visibility: visible;
+}
+.supports1{
+    display: none;
+    position:fixed;
+    top:3em;
+    left:0px;
+    background-color: black;
+    width:1300px;
+    height:0px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 1s ease, visibility 1s ease;height: 1s ease;
+    visibility: hidden;
+    color:white;
+}
+
+.supports:hover .supports1{
+    display:block;
+    opacity: 1;
+    visibility: visible;
+    height:450px;
+}
+.navbar ul li {
+    position: relative;
+  }
+.store li a {
+    padding: 8px 16px;
+    display: block;
+    color: #fff;
+  }
+.store li a:hover{
+    background-color: #444;
+}
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    font-weight:100;
+    height:3.5vh;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+.navbar ul li a {
+    color: rgba(255, 255, 255, 0.8);
+    display: block; 
+    text-decoration: none;
+    font-size:13px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+.navbar ul li a:hover {
+    color: #ffffff; 
+}
+.navback{
+    background-color: black;
+    height:3em;
+    width:100%;
+}
+.substore1{
+    display:inline-block;
+    float: left;
+    padding-left:100px;
+    padding-top:40px;
+    padding-bottom:20px;
+}
+.substore2{
+    display: inline-block;
+    float:left;
+    padding-left:130px;
+    padding-top:40px;
+    padding-bottom:20px;
+}
+.shope{
+    font-size:12px;
+    color:grey;
+    padding-bottom:20px;
+}
+.shopeee{
+    font-size:24px;
+    font-weight:300;
+    padding-bottom:10px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.qlnk{
+    font-size:14px;
+    font-weight:400;
+    padding-bottom:10px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.mainheading{
+    color:rgb(255, 255, 255);
+    background-color: #181819;
+    font-size:13px;
+    text-align: center;
+    font-weight:350;
+    width:98.45vw;
+    height:20px;
+    padding:10px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    letter-spacing: 0.04em;
+    line-height: 1.3334;
+}
+a.shop{
+    text-decoration: none;
+    font-weight:400;
+    color:rgb(13, 129, 231);
+}
+.iphone16{
+    width:100vw;
+    border-color: transparent;
+    height:100vh;
+    
+}
+.iphone16m{
+    padding:0;
+    background-color:#000000;
+    background-image:url("https://external-preview.redd.it/all-four-new-iphone-16-pro-colors-revealed-in-new-image-v0-XVbsFR3ZruoYIwAglDsFJVBTZwd_10xvrwFMfeJ3oD0.jpg?width=1080&crop=smart&auto=webp&s=f450fef5384be14bff3011a57b3eebe2319bc85e");
+    height:85vh;
+    background-size:cover;
+    width:100vw;
+}
+.iphonehed{
+    color:white;
+    text-align: center;
+    padding-top:20px;
+    font-size: 50px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.supper{
+    color:white;
+    text-align: center;
+    padding-top:20px;
+    font-size: 30px;
+    line-height: 1.125;
+    font-weight: 400;
+    letter-spacing: .002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.botton1{
+    height:40px;
+    width:110px;
+    background-color:black;
+    background-size:cover;
+    border-width:0px;
+    border-radius:20px;
+    font-size:15px;
+    color:white;
+}
+.butt{
+    display: flex;
+    flex:column;
+    justify-content: center;
+    padding-top:400px;
+}
+.abc{
+    padding-left: 10px;
+}
+.botton2{
+    height:40px;
+    width:110px;
+    background-color:transparent;
+    border: 1px solid grey;
+    background-size:cover;
+    border-radius:20px;
+    font-size:15px;
+    color:white;
+}
+.iphone16m button.botton2:hover{
+    background-color:grey;
+}
+.iphone16m button:hover{
+    background-color:grey;
+}
+.iphone16m2 button:hover{
+    background-color:grey;
+}
+.iphone16m2 button.button4:hover{
+    background-color:transparent;
+}
+
+.heading1{
+    color:rgb(2, 0, 8);
+    font-size:15px;
+    font-family:"SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight:200;
+    letter-spacing: .002em;
+    text-align:center;
+    padding-top:10px;
+}
+.iphone16m2{
+    margin-top:10px;
+    height: 90vh;
+    background-image:url("https://www.cnet.com/a/img/resize/b8f872ad3c40aabc68bc88ac8a79b1470ed7b9c6/hub/2024/05/07/0ceb2dd9-4fc6-417e-9042-f58b36fab653/iphone-16-rumors-00000.jpg?auto=webp&fit=crop&height=675&width=1200");
+}
+.botton3{
+    height:40px;
+    width:110px;
+    background-color:white;
+    background-size:cover;
+    border-width:0px;
+    border-radius:20px;
+    font-size:15px;
+    color:black;
+}
+.botton4{
+    height:40px;
+    width:110px;
+    background-color:white;
+    background-size:cover;
+    border-width:0px;
+    border-radius:20px;
+    font-size:15px;
+    color:black;
+}
+.iphonehed1{
+    color:white;
+    text-align: center;
+    padding-top:40px;
+    font-size: 50px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.supper1{
+    color:white;
+    text-align: center;
+    padding-top:30px;
+    font-size: 30px;
+    line-height: 1.125;
+    font-weight: 400;
+    letter-spacing: .002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.iphone16m3{
+    margin-top:10px;
+    height: 90vh;
+    background-image:url("https://bgr.com/wp-content/uploads/2024/09/apple-iphone-16-pro-max-plus-watch-10-ultra-airpods-4-launch-event-19.jpg?resize=1200%2C628");
+}
+.iphonehed2{
+    color:white;
+    text-align: center;
+    padding-top:40px;
+    font-size: 30px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.supper2{
+    color:white;
+    text-align: center;
+    padding-top:10px;
+    font-size: 20px;
+    line-height: 1.125;
+    font-weight: 400;
+    padding-left: 10px;
+    letter-spacing: .002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.supper3{
+    color:white;
+    text-align: center;
+    padding-top:20px;
+    font-size: 30px;
+    line-height: 1.125;
+    font-weight: 400;
+    padding-left: 10px;
+    letter-spacing: .002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+.con1,.con2,.con3{
+    display: flex;
+    padding: 1%;
+    padding-top: 0;
+    gap: 1%;
+}
+.black-1,.valentines-1,.macbook-1,.ipad-12,.airpods-1,.trading-1{
+    height: 70vh;
+    z-index:-100;
+}
+.imggal{
+    margin-top:15px;
+}
+.botton5{
+    height:40px;
+    width:110px;
+    background-color:grey;
+    background-size:cover;
+    border-width:0px;
+    border-radius:20px;
+    font-size:15px;
+    color:white;
+}
+.botton6{
+    height:40px;
+    width:110px;
+    background-color:grey;
+    background-size:cover;
+    border-width:0px;
+    border-radius:20px;
+    font-size:15px;
+    color:white;
+}
+.iphone16m3 button:hover{
+    background-color:black;
+}
+.appwatch{
+    position:fixed;
+    z-index:100;
+}
+footer{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #1a1a1a80;
+    font-weight: 100;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+.final{
+    width: 70%;
+}
+.footlink{
+    color: rgba(0, 0, 0, 0.6);
+}
+ul{
+    list-style-type: none;
+}
+.lnk{
+    text-decoration: none;
+}
+.footcon-1{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    color: rgba(0, 0, 0, 0.7);
+}
+.lnk-h{
+    font-weight: 600;
+}
+.footcon{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 90%;
+    margin-top: 3%;
+}
+.morelnk{
+    color: #0275d8;
+}
+.one{
+    display: flex;
+    width: 80%;
+    gap: 5%;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+.exend,.india{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.lnk:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
