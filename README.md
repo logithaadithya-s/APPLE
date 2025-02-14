@@ -1,20 +1,21 @@
 Apple Landing Page Clone
 
 Project Overview
-This project is a clone of the official Apple landing page, built to practice frontend development skills. The goal was to replicate the design and responsiveness of Apple's website using modern web technologies.
+This is a clone of apple landing page were I have used to my knowledge about html,css and javascript to make this website.By making this website I learned many things about Web programming.
+This web page gave me a motivation to learn more about webprogramming.This was a great opertunity to learn more things.
 
-Features
-- Fully responsive design
-- Smooth animations and transitions
-- Interactive navigation bar
-- High-quality images and icons
-- Pixel-perfect layout resembling the original Apple website
+Features:
+1.Fully responsive design
+2.Smooth animations and transitions
+3.Interactive navigation bar
+4.High-quality images and icons
+5.Pixel-perfect layout resembling the original Apple website
 
-Technologies Used
-- HTML5
-- CSS3 (Flexbox & Grid)
-- JavaScript for interactivity
--  Bootstrap 
+Technologies Used:
+1.HTML5
+2.CSS3 (Flexbox & Grid)
+3.JavaScript for interactivity
+4.Bootstrap 
 
 
 Project Structure
