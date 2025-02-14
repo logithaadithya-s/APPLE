@@ -276,9 +276,7 @@ body {
 .navback{
     background-color: black;
     height:3em;
-    width:100%;
-    position:absolute;
-    top:0px;
+    width:100vw;
 }
 .substore1{
     display:inline-block;
