@@ -5,17 +5,17 @@ This is a clone of apple landing page were I have used to my knowledge about htm
 This web page gave me a motivation to learn more about webprogramming.This was a great opertunity to learn more things.
 
 Features:
-1.Fully responsive design
-2.Smooth animations and transitions
-3.Interactive navigation bar
-4.High-quality images and icons
-5.Pixel-perfect layout resembling the original Apple website
+-Fully responsive design
+-Smooth animations and transitions
+-Interactive navigation bar
+-High-quality images and icons
+-Pixel-perfect layout resembling the original Apple website
 
 Technologies Used:
-1.HTML5
-2.CSS3 (Flexbox & Grid)
-3.JavaScript for interactivity
-4.Bootstrap 
+-HTML5
+-CSS3 (Flexbox & Grid)
+-JavaScript for interactivity
+-Bootstrap 
 
 
 Project Structure
